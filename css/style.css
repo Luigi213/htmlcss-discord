@@ -5,10 +5,27 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* utily */
+
 button{
     all: unset;
     cursor: pointer;
 }
+
+.onde{
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+}
+
+.wave1{
+    filter: invert(1);
+}
+
+.wave{
+    filter: invert(97%);
+}
+
 
 /* start header */
 
@@ -110,16 +127,37 @@ button{
 
 /* end header */
 
+/* padding main */
+
+.padding1{
+    padding: 60px 0;
+}
+
+.padding2{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.padding3{
+    padding: 40px 0;
+}
+
+.padding4{
+    padding-top: 40px;
+}
+
 /* star main */
 
     .container-main{
         background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
     }
 
     .row-main{
         max-width: 70%; 
         margin: 0 auto;
-        padding: 35px 0;
+        padding: 35px 0
     }
 
     .col-main{
@@ -258,8 +296,12 @@ button{
         padding-right: 19px;
     }
 
-    .info h3, ul{
+    .info h3, ul, strong{
         color: #648AE8;
+    }
+
+    strong{
+        font-size: 15px;
     }
 
     li{
