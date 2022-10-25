@@ -15,6 +15,7 @@ button{
     header{
         background-image: url(../img/jumbo.png);
         background-size: cover  ;
+        padding: 2px;
     }
 
     .container-header{
@@ -171,12 +172,35 @@ button{
         text-align: center;
     }
 
+    .mini-p{
+        margin-bottom: 80px;
+    }
+
+    .mini-p h3{
+        text-align: center;
+        background-image: url(../img/stars.svg);
+        background-size: 90% 80%;
+        padding: 30px;
+        margin: 0 150px 30px 150px;
+    }
+
+    .last-button{
+        text-align: center ;
+        width:  18%;
+        margin: 0 auto;
+        padding: 13px 20px;
+        border-radius: 30px;
+        background-color: #648ae8;
+        color: #FFFFFF;
+    }
+
 /* end main */
 
 /* start footer */
 
     footer{
         background-color: #23272A;
+        padding-bottom: 60px;
     }
 
     .container-footer{
@@ -209,7 +233,32 @@ button{
         font-size: 27px;
     }
 
-    h3, ul{
+    
+    .logo-smlist{
+        margin-top: 19px;
+        margin-bottom: 20px;
+    }
+    
+    .logo-ita{
+        width: 20px;
+        vertical-align: middle;
+    }
+
+    #special{
+        vertical-align: top;
+    }
+
+    span{
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+
+    .fa{
+        color: #FFFFFF;
+        padding-right: 19px;
+    }
+
+    .info h3, ul{
         color: #648AE8;
     }
 
@@ -252,7 +301,6 @@ button{
 
     .col-sfooter{
         width: 100%;
-        background-color: #7FFFD4;
     }
 
     .col-copyright{
@@ -261,9 +309,17 @@ button{
         justify-content: space-between;
     }
 
-    .logopt2, .buttonpt2{ 
-        margin: 7px 0;
-        padding: 2px 5px;
+    .log{
+        width: 100px;
+    }
+
+    .buttonpt2{
+        height: 30px;
+        background-color: #648AE8;
+        color: #FFFFFF;
+        padding: 7px 10px;
+        border-radius: 15px;
+        font-size: 12px;
     }
 
 /* end footer */
